@@ -22,12 +22,17 @@ def order_of_seats(cinema):
 		return row
 		
 def find_col(row, cinema):
+
     if 0 in cinema[row]:
+    
         return cinema[row].index(0) + 1
+        
     else:
+    
         return None
 
 >>> def order_of_seats(cinema):
+
 	result_list = []
 
 	
